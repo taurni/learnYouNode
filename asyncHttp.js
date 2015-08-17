@@ -34,7 +34,7 @@ function readUrl(url,i,callback){
             }
         })
 
-    });
+    })
 }
 
 function printRes(){
