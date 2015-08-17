@@ -12,7 +12,7 @@ for(var i=0; i<3; i++) {
     readUrl(urls[i],i)
 }
 
-function readUrl(url,i,callback){
+function readUrl(url,i){
     http.get(url, function (res) {
         var data;
         res.setEncoding('utf8');
